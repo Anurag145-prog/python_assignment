@@ -1,0 +1,7 @@
+a=int(input("Enter value of a:"))
+b=int(input("enter value of d:"))
+c=int(input("enter value of nth term:"))
+nterm=a+((c-1)*b)
+print("nth term is:",nterm)
+sum=(c/2)*(a+nterm)
+print("sum of nth term is:",sum)
