@@ -1,0 +1,5 @@
+a=int(input("enter a number:"))
+b=int(input("enter a number:"))
+c=int(input("enter a number:"))
+res=a if(a >b and a>c) else (b if(b>a and b>c)else c)
+print("Greater is :",res)
