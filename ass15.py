@@ -1,0 +1,7 @@
+a=int(input("enter number of rows: "))
+for i in range(a):
+   num =1
+   for j in range(i+1):
+       print(num,end=" ")
+       num=num*(i-j)//(j+1)
+   print()   
